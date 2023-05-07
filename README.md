@@ -9,13 +9,7 @@ https://user-images.githubusercontent.com/48356807/232432194-46ba797f-ad9d-476a-
 
 
 
-> 本项目基于 [chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 开发。正式版本（v1.0.0）使用 Solid-Start 框架，并且不再开启 SSR。请重新设置环境变量。
-
-在线预览:
-
-1. [chatsverse.xyz](https://www.chatsverse.xyz)，由 [@Airyland](https://m.okjike.com/users/C6C8DE3A-E89D-4978-9E7D-B2E167D835A9) 免费提供。（2023.03.31 被墙）
-2. ~~[aitoolgpt.com](https://www.aitoolgpt.com)，由 [@AUDI_GUZZ](https://m.okjike.com/users/4af3cfb4-1291-4a8b-b210-f515c86934a9) 免费提供~~。（2023.03.22 壮烈牺牲，提醒大家不要分享自己的站点，请小范围内使用）。
-3. [vercel.app](https://vercel-chatgpt-github.vercel.app) 被墙。
+>
 
 ## 特点
 
@@ -108,13 +102,7 @@ https://user-images.githubusercontent.com/48356807/232432194-46ba797f-ad9d-476a-
 3. `pnpm i` 安装依赖。
 4. `pnpm dev` 启动项目。
 
-### 更多部署方案
 
-目前本项目除 Vercel 以外还支持
-
-- [Netlify](https://www.netlify.com/)：直接导入即可。
-- [CloudFlare Worker](https://cloudflare.com/)：使用 Github Action 部署，需要设置 `CF_API_TOKEN`。
-- [Railway](https://railway.app/)：直接导入即可。
 
 不建议使用除 Vercel 以外的部署方案。 除了比较慢以外，更重要的是只有 Vercel 支持设置 Edge Function 服务器的地区，其他平台会自动使用距离最近的服务器，有可能是 OpenAI 不支持的地区，从而导致封号。
 
@@ -175,7 +163,6 @@ https://user-images.githubusercontent.com/48356807/232432194-46ba797f-ad9d-476a-
 2. 修改 `prompts.md`。
 3. Pull Request 即可。
 
-如果你不懂这个操作，也可以直接在 Issues 提交你的 Prompts。目前大部分 Prompts 来自于 [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)，当然，这个仓库大多数也是翻译的 [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)，一并感谢。
 
 #### 要求
 
@@ -183,12 +170,6 @@ https://user-images.githubusercontent.com/48356807/232432194-46ba797f-ad9d-476a-
 - 尽可能去优化已有的 Prompts，而不是重复添加。
 - 添加到结尾，我会定期整理。
 
-## 赞赏
 
-如果本项目对你有所帮助，可以给小猫买点零食，但不接受任何付费功能请求。
 
-![](./assets/reward.gif)
 
-## License
-
-[MIT](./LICENSE)
